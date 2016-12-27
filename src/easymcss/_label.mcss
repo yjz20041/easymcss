@@ -1,0 +1,46 @@
+$label = ($width = 80px, $margin = 0px, $line-height = $input-height){
+	float: left;
+	width: $width; margin-right: $margin;
+	line-height: $line-height; text-align: right;
+}
+
+.u-label{
+	$label(80px, 0px);
+	color: $gray-s;
+
+	&.u-label2-l{
+		width: 120px;
+	}
+
+}
+
+.u-label2{
+	$label(80px, 0px, 40px);
+	color: $gray-s;
+
+	&.u-label2-l{
+		width: 120px;
+	}
+}
+
+.u-label_input{
+	padding-left:20px; background: url(/src/images/bg/checkbox.png) no-repeat left 0; overflow: hidden;
+	line-height: $input-height;
+	cursor: pointer;
+	
+	&.u-label_input-checkbox{
+		background-image: url(/src/images/bg/checkbox.png)
+	}
+	&.u-label_input-radio{
+		background-image: url(/src/images/bg/radio.png)
+	}
+
+	&.z-checked{
+		background-position: left -20px;
+	}
+
+	input{
+		display: none; 
+	}
+	
+}

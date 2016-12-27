@@ -1,0 +1,63 @@
+
+@import '_various.mcss';
+@import '_lib.mcss';
+@import '_status.mcss';
+@import '_grid.mcss';
+@import '_unit.mcss';
+@import '_btn.mcss';
+@import '_label.mcss';
+@import '_input.mcss';
+@import '_form.mcss';
+@import '_table.mcss';
+@import '_page.mcss';
+@import '_dialog.mcss';
+@import '_icon.mcss';
+@import '_function.mcss';
+@import '_font.mcss';
+@import '_easywidget.mcss';
+@import '_component.mcss';
+@import '_chart.mcss';
+@import '_module.mcss';
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	//overflow-x: hidden;
+	font: 14px/1.5 "Microsoft YaHei",Helvetica,Tahoma,Arial,"Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif; color: $body-color;
+}
+
+textarea[name=jst]{
+	display: none;
+}
+
+::-webkit-scrollbar{width:6px;height:6px;}
+::-webkit-scrollbar-track{background:none;}
+::-webkit-scrollbar-thumb{border-radius:3px;background:#eee;}
+::-webkit-scrollbar-button,::-webkit-scrollbar-corner{display:none;}
+
+body{
+scrollbar-arrow-color: #eee;
+scrollbar-shadow-color: #999;
+scrollbar-track-color: #eee;
+scrollbar-base-color:#eee;
+
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    $gray-l;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:     $gray-l;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:     $gray-l;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:     $gray-l;
+}
+
+

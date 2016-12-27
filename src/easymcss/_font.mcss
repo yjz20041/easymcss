@@ -1,0 +1,60 @@
+$font = ($size = 12px, $color= $gray, $weight= normal ){
+	font-size: $size; font-weight: $weight; color: $color;
+}
+
+.u-ft-black0{
+	$font($fs0, $gray-xs);
+}
+.u-ft-black1{
+	$font($fs1, $gray-xs);
+}
+.u-ft-black2{
+	$font($fs2, $gray-xs);
+}
+.u-ft-black3{
+	$font($fs3, $gray-xs);
+}
+.u-ft-black4{
+	$font($fs4, $gray-xs);
+}
+.u-ft-black5{
+	$font($fs5, $gray-xs);
+}
+
+.u-ft-normal0{
+	$font($fs0, $gray-s);
+}
+.u-ft-normal1{
+	$font($fs1, $gray-s);
+}
+.u-ft-normal2{
+	$font($fs2, $gray-s);
+}
+.u-ft-normal3{
+	$font($fs3, $gray-s);
+}
+.u-ft-normal4{
+	$font($fs4, $gray-s);
+}
+.u-ft-normal5{
+	$font($fs5, $gray-s);
+}
+
+.u-ft-gray0{
+	$font($fs0, $gray);
+}
+.u-ft-gray1{
+	$font($fs1, $gray);
+}
+.u-ft-gray2{
+	$font($fs2, $gray);
+}
+.u-ft-gray3{
+	$font($fs3, $gray);
+}
+.u-ft-gray4{
+	$font($fs4, $gray);
+}
+.u-ft-gray5{
+	$font($fs5, $gray);
+}

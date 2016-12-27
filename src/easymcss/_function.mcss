@@ -1,0 +1,112 @@
+/* function */
+.f-cb,.f-cbli li{$clearfix();}
+.f-ff1{$yahei();}
+.f-fs0{font-size:$fs0;}
+.f-fs1{font-size:$fs1;}
+.f-ib{$inline-block();}
+.f-taj{$justify();}
+.f-wsn{$nowrap();}
+.f-pre{$pre();}
+.f-wwb{$break-word();}
+.f-toe{$ellipsis();}
+.f-dn{display:none;}
+.f-fl{float:left;}
+.f-fr{float:right;}
+.f-cp{cursor:pointer;}
+.f-vam,.f-vama *{vertical-align:middle;}
+.f-du,.f-du:hover{text-decoration:underline;}
+.f-db{display:block;}
+.f-vih{visibility:hidden;}
+.f-viv{visibility:visible;}
+
+.f-tl{text-align: left;}
+.f-tc{text-align: center;}
+.f-tr{text-align: right;}
+
+.f-success{
+	color: $brand-success;
+}
+.f-danger{
+	color: $brand-danger;
+}
+
+
+.f-cbl{
+	clear: left;
+}
+
+.f-mt5{
+	margin-top: 5px;
+}
+
+.f-mt10{
+	margin-top: 10px;
+}
+.f-mt15{
+	margin-top: 15px;
+}
+.f-mt20{
+	margin-top: 20px;
+}
+.f-mt30{
+	margin-top: 30px;
+}
+.f-mt40{
+	margin-top: 40px;
+}
+.f-mt50{
+	margin-top: 50px;
+}
+.f-ml10{
+	margin-left: 10px;
+}
+.f-ml20{
+	margin-left: 20px;
+}
+.f-ml30{
+	margin-left: 30px;
+}
+.f-ml40{
+	margin-left: 40px;
+}
+.f-ml50{
+	margin-left: 50px;
+}
+
+.f-mr5{
+	margin-right: 5px;
+}
+.f-mr10{
+	margin-right: 10px;
+}
+.f-mr20{
+	margin-right: 20px;
+}
+.f-mr30{
+	margin-right: 30px;
+}
+.f-mr40{
+	margin-right: 40px;
+}
+.f-mr50{
+	margin-right: 50px;
+}
+
+.f-mb20{
+	margin-bottom: 20px;
+}
+
+
+.f-cl{
+	color: $light;
+}
+
+.f-cblack{
+	color: $gray-xs;
+}
+
+.f-ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+}

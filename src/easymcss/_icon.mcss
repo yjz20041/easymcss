@@ -1,0 +1,6 @@
+.i-icon{
+	$inline-block();
+	width: 32px; height: 32px; background: no-repeat center center;
+	vertical-align: middle;
+}
+

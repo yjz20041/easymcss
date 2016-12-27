@@ -1,0 +1,31 @@
+.m-form{
+	
+	text-align: left;
+	
+	.field{
+		margin: 1.4em 0;		
+	}
+
+	.field2{
+		margin: 1.8em 0;
+	}
+
+	.field3{
+		margin: 0.8em 0;		
+	}
+
+	.field4{
+		margin: 2.2em 0;
+	}
+
+	.ipt{
+		margin-left: 100px;
+	}
+	.ipt-l{
+		margin-left: 140px;
+	}
+
+}
+
+
+

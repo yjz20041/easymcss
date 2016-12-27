@@ -1,0 +1,92 @@
+
+
+
+/*skin*/
+
+$body-color = #333;
+$skin-color = #4289db;//主色调
+
+
+
+/*文字颜色*/
+$gray-xs = #333;
+$gray-s = #666;
+$gray = #999;
+$gray-l = #ccc;
+$gray-xl = #efefef;
+
+$light-s = #f6bb42;
+$light = #538edb;
+$light-l = #f6bb42;
+
+$light2-s = #f6bb42;
+$light2 = #ed4a12;
+$light2-l = #f6bb42;
+
+/*标志颜色*/
+$brand-primary  = #29addd;      // 深蓝
+$brand-inverse  = #fff;         // 白色
+$brand-success  = #48ba9e;      // 绿色
+$brand-info     = #37bc9b;      // 深绿
+$brand-warning  = #ff5c57;      // 橘黄
+$brand-danger   = #f35446;      // 红
+$brand-error    = #fcf7e3;      // 淡黄
+$brand-ninfo    = #d9edf7;      // 淡黄
+
+
+/*按钮颜色*/
+$btn-light = $skin-color;
+$btn-light-hover = #78b4f9;
+$btn-light-active = #4289db;
+$btn-disabled = #eee;
+
+/*输入框颜色*/
+$ipt-light-hover = #58a2f7;
+$ipt-error = #ff5c57;
+
+
+/*背景色*/
+$bg-gray-s = #dbdbdb;
+$bg-gray = #efefef;
+$bg-gray-l = #f5f7fa;
+$bg-gray-xl = #f5f5f5;
+
+//高亮背景色
+$bg-light = #f6f6f6;
+
+
+/*表格颜色*/
+$thead-light = $bg-gray-l;
+$odd-light = #f7f8fa;
+
+$row-selected = #f7f7f7;
+
+
+/*边颜色*/
+$border-gray-s = #eceef2;
+$border-gray = #eee;
+$border-gray-l = #e1e5eb;
+$border-gray-xl = #e6ebf2;
+
+/*圆角*/
+
+$radius-s = 1px;
+$radius-l = 6px;
+$radius-xl = 9px;
+
+/*shadow*/
+$shadow-gray = #f5f7fa;
+
+$shadow-gray-s = 5px $shadow-gray;
+
+/*form相关*/
+$input-width = 98px;
+$input-height = 26px;
+$input-padding = 0 10px;
+
+$button-width = 90px;
+$button-height = 30px;
+$button-padding = 0 15px;
+
+$hd_height = 70px;
+$ft_height = 0px;

@@ -1,0 +1,3 @@
+.z-required{
+	color: $brand-warning;
+}

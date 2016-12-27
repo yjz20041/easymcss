@@ -1,0 +1,90 @@
+$btn = ($width = $button-width, $height = $button-height, $padding = $button-padding, $color=white, $background-color = $btn-light, $border = 0, $border-radius = $radius-s){
+	$inline-block(); vertical-align: middle;
+	min-width: $width; height: $height; line-height: $height; padding: $padding; background-color: $background-color; border: $border; border-radius: $border-radius;
+	text-align: center; color: $color;
+}
+
+
+
+
+.u-btn{
+	$btn();	
+
+	&.u-btn-xs{
+		width: auto; $line-height(26px); padding: 0 15px;
+	}	
+
+	&.u-btn-login{
+		width: 245px;
+		$line-height(40px); 
+	}
+
+	
+}
+
+
+.u-btn2{
+	$btn();	
+	//width: 95px; $line-height(35px); 
+}
+
+
+.u-btn,.u-btn2{
+	
+	
+	&.j-dialog_cancel{
+		background-color: white; border: 1px solid #cdcdcd;
+		color: $body-color;
+	}
+
+
+	&:hover{
+		background: $btn-light-hover; border: 0;
+		color: white;
+	}
+
+	&:active{
+		background: $btn-light-active; border: 0;
+		color: white;
+	}
+
+	&.z-disabled{
+		background: $btn-disabled; border: 0;
+		color: #ccc;
+	}
+
+	&.j-dialog_cancel{
+
+		&:hover, &:active{
+			background: white; border: 1px solid $btn-light-active;
+			color: $btn-light-active;
+		}
+
+		&.z-disabled{
+			background: white; border: 1px solid #ddd;
+			color: #ccc;
+		}
+	}
+}
+
+.u-btn_a{
+	color: $light;
+}
+
+.u-table_btn{
+	margin-right: 20px;
+}
+
+.j-dialog_ok{
+	/*background-color: white !important; border: 1px solid $border-gray !important;
+	color: $body-color !important;
+
+	&:hover{
+		background: $btn-light-hover !important;
+		color: white !important;
+	}*/
+}
+
+
+
+

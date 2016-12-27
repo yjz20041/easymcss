@@ -1,0 +1,11 @@
+$line-height = ($height){
+	height: $height; line-height: $height;
+}
+
+$round-border = ($border = $border-gray, $radius = $radius-s){
+	border: $border; border-radius: $radius;	
+}
+
+$inline-block = (){
+	display: inline-block; vertical-align: middle;
+}

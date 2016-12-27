@@ -1,0 +1,137 @@
+$ipt = ($width = $input-width, $height = $input-height, $padding = $input-padding, $border = 1px solid $border-gray-l, $border-radius = 0){
+	$inline-block(); vertical-align: middle;
+	width: $width; height: $height; line-height: $height; padding: $padding; border: $border; border-radius: $border-radius;
+}
+
+
+.u-ipt{
+	$ipt();
+	
+	&.u-ipt-l{
+		width: 125px;
+	}
+	
+	&.u-ipt-xl{
+		width: 200px;
+	}
+
+	&.u-ipt-xxl{
+		width: 300px;
+	}
+	&.u-ipt-xxxl{
+		width: 400px;
+	}
+
+	&.u-ipt-maxl{
+		width: 100%;
+	}
+
+}
+
+
+.u-ipt_read{
+	border: 0;
+}
+
+.u-ipt2{
+	$ipt($height=40px);
+	border-radius: $radius-s;
+
+	&.u-ipt2-xxxl{
+		width: 400px;
+	}
+}
+
+.u-ipt, .u-ipt2{
+
+	&:hover, &:focus{
+		border-color: $ipt-light-hover;
+	}
+
+	&.z-error{
+		border-color: $ipt-error;
+		
+	}
+}
+
+.u-radio{
+	input{
+		margin-right: 10px;
+		vertical-align: -2px;
+	}
+}
+
+.u-checkbox{
+	$line-height(40px);
+}
+
+input[type=checkbox],input[type=radio]{
+	vertical-align: middle;
+}
+
+.u-select{
+	$ipt();
+	background: url(/src/images/bg/select.png) no-repeat right center;
+	cursor: pointer;
+}
+
+.u-textarea{
+	$ipt($height=18px);
+	height: auto; padding-top: 10px;
+
+	&.u-textarea-xxxl{
+		width: 400px;
+	}
+
+	&.z-error{
+		border-color: $ipt-error;
+		
+	}
+
+}
+
+
+
+.e-ipt_clear{
+	position: relative;
+	input{
+		padding-right: 30px;
+	}
+	i{
+		display: none;
+		position: absolute; right: 7px; top: 1px; width: 30px; height: 30px; background: url(/src/images/bg/close.png) no-repeat center center;
+		&.search{
+			display: block;
+			background-image: url(/src/images/search.png);
+		}
+	}
+	
+	&.z-clear{
+		i, i.search{
+			display: block;
+			background-image: url(/src/images/bg/close.png);
+		}
+	}
+}
+
+.e-ipt_parent{
+	position: relative;
+	.datalist{
+		position: absolute;
+		top: 35px; left: 0; width: 100%; background: white; border: 1px solid gray;
+		a{
+			display: block;
+			padding: 0 10px; 
+			line-height: 30px;
+
+			&:hover{
+				background: gray;
+				color: white;
+			}
+		}
+	}
+
+}
+
+	
+

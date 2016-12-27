@@ -1,0 +1,10 @@
+
+
+.u-title{
+	padding-left: 10px; padding-bottom: 10px; border-bottom: 1px solid $border-gray;
+	font-size: $fs2; 
+}
+.u-title2{
+	@extend .u-title;
+	margin-bottom: 10px; padding-bottom: 0; border-bottom: 0;
+}
